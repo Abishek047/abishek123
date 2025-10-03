@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -t true"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
@@ -25,3 +24,4 @@
   },
   "homepage": "https://Abishek047.github.io/abishek123"
 }
+
