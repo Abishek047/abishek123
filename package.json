@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "push-deploy": "npm run build && git add . && git commit -m \"Auto commit before deploy\" && git push origin main && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
@@ -24,4 +25,3 @@
   },
   "homepage": "https://Abishek047.github.io/abishek123"
 }
-
